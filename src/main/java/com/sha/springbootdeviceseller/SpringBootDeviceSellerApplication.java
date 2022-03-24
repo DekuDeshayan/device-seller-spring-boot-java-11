@@ -10,6 +10,5 @@ public class SpringBootDeviceSellerApplication {
 		SpringApplication.run(SpringBootDeviceSellerApplication.class, args);
 	}
 	
-	//runner
 
 }

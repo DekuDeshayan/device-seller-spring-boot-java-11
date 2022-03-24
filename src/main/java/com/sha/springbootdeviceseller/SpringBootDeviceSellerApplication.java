@@ -9,5 +9,7 @@ public class SpringBootDeviceSellerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootDeviceSellerApplication.class, args);
 	}
+	
+	//runner
 
 }

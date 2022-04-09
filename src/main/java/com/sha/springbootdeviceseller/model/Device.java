@@ -1,6 +1,7 @@
 package com.sha.springbootdeviceseller.model;
 
-import java.time.LocalDate;
+import java.time.LocalDateTime;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.EnumType;
@@ -32,10 +33,10 @@ public class Device {
 	private String description;
 	
 	@Column(nullable = false)
-	private double price;
+	private Double price;
 	
 	@Column(nullable = false, length = 100)
-	private LocalDate createTime;
+	private LocalDateTime createTime;
 	
 	//device-type
 	 
